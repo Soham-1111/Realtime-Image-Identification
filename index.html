@@ -1,0 +1,51 @@
+<html>
+
+<head>
+  <title>Realtime Image Identification</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+  <center>
+  <div id="header">
+<h2>Realtime Image Identification</h2>
+<hr>
+<div id="model_train" class="btn btn-default">
+  <h3 id="fonts">This model is trained on these images-</h3>
+  <br>
+<span class="btn btn-warning" id="objects">
+  <b>1.Mother| </b>
+  <b>2.Father |</b>
+  <b>3.Me |</b>
+  <b>4.Nani |</b>
+  <b>5.Dadi |</b>
+</span>
+</div>
+
+  </div>
+  
+
+  <h4 class="btn btn-warning result" >Object: <span id="result"></span></h4>
+  <br>
+  <h4 class="btn btn-warning result" >Acuracy: <span id="accuracy"></span></h4>
+
+<div class="footer_div">Developed by Soham of Whitehatjr</div>
+  
+  </center>
+
+
+<script src="main.js"></script>
+</body>
+
+</html>
