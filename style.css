@@ -33,12 +33,20 @@ body{
 
 .footer_div{
     color:slategray;
-    background-color: white;
+    background-color: blanchedalmond;
     bottom: 0;
     position:fixed;
     width: 100%;
     text-align: center;
     line-height: 30px;
      font-family: 'Source Serif Pro', serif;
+
+
+}
+
+canvas{
+box-shadow: 5px 5px 5px black;
+border-radius:20px;
+border: 5px solid burlywood;
 
 }
